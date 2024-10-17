@@ -1,0 +1,165 @@
+
+/* 
+    Created on : Nov 5, 2023, 3:27:10 PM
+    Author     : lenovo
+*/
+/* this is for background color of "form" and also " some card of bootstrap" */
+.form_Color_background{
+ 
+   
+    background-color: #cccccc;
+    background-image: linear-gradient(red, yellow,pink, green,blue) ;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+
+}
+
+
+
+
+.custom-bg{
+    background:#007bff!important;
+}
+
+/* this is border for admin.jsp page give border for card */
+.admin .card{
+    border: 1px solid #007bff;
+}
+
+/*  this is css for admin.jsp page for when over mouse on card then change color   */
+.admin .card:hover{
+    background: #e2e2e2;
+    cursor: pointer;
+}
+
+.list-group-item.active{
+     background:#007bff!important;
+     border-color:#007bff!important; 
+    
+}
+/*  this is use in "index.jsp page for size and style for   product discount "*/
+.discount-label{
+    font-size: 12px!important;
+    font-style:italic!important;
+    
+}
+/*  this is use in "index.jsp page  "*/
+.product-card:hover{
+     background: #e2e2e2;
+    cursor: pointer;
+}
+
+
+
+/* this is related "Toast Message" this "related file" is  "Style.css ,Script.js and Common_modals.jsp" */
+#toast{
+    min-width: 300px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -120px;
+    background: #333;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-size: 18px;
+    visibility:hidden;
+    box-shadow: 0px 0px 100px #000;
+    
+}
+/* this is related "Toast Message" this "related file" is  "Style.css ,Script.js and Common_modals.jsp" */
+#toast.display{
+    visibility: visible;
+    animation: fadeIn 0.5s, fadeOut 0.5s;
+       
+}
+@keyframes fadeIn{
+    from {
+        bottom:0;
+        opacity:0;
+    }
+    to{
+        bottom:30px;
+        opacity:1;
+    }
+}
+
+@keframes fadeOut{
+    from {
+        bottom:30px;
+        opacity:1;
+    }
+    to{
+        bottom:0;
+        opacity:0;
+    }
+    
+}
+
+
+
+/* Basic CSS for styling
+this is for about page
+*/
+
+ body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+        }
+        
+/* Basic CSS for styling
+this is for contact page
+*/
+        
+     body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .contact-info {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .contact-info h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .contact-info p {
+      margin-bottom: 8px;
+    }
+    .contact-info a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }

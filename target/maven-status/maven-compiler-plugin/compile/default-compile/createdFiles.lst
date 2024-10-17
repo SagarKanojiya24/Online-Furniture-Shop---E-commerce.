@@ -1,0 +1,14 @@
+com\mycompany\onlinefurnitureshop\Entitys\Product.class
+com\mycompany\onlinefurnitureshop\Dao\UserDao.class
+com\mycompany\onlinefurnitureshop\resources\JakartaEE8Resource.class
+com\mycompany\onlinefurnitureshop\Entitys\Category.class
+com\mycompany\onlinefurnitureshop\Servlets\LogoutServlet.class
+com\mycompany\onlinefurnitureshop\Dao\CategoryDao.class
+com\mycompany\onlinefurnitureshop\Servlets\AddCategoryAndProductOperationServlet.class
+com\mycompany\onlinefurnitureshop\Entitys\User.class
+com\mycompany\onlinefurnitureshop\helper\FactoryProvider.class
+com\mycompany\onlinefurnitureshop\Dao\ProductDao.class
+com\mycompany\onlinefurnitureshop\JakartaRestConfiguration.class
+com\mycompany\onlinefurnitureshop\Servlets\RegisterServlet.class
+com\mycompany\onlinefurnitureshop\helper\Helper.class
+com\mycompany\onlinefurnitureshop\Servlets\LoginServlet.class
